@@ -54,9 +54,9 @@ function hero() {
       <path d="M19 59 L40 75 L61 59" fill="#f6c945" stroke="#172554" stroke-width="3"/>
       <path d="M40 75 L40 103" stroke="#f6c945" stroke-width="5"/>
       <path d="M29 103 L24 128 L42 128 L47 103 M53 103 L48 128 L66 128 L61 103" fill="#172554" stroke="#172554" stroke-width="3"/>
-      <path d="M-2 71 L-32 58" stroke="#f6c945" stroke-width="11" stroke-linecap="round"/>
-      <path d="M-31 58 L-50 48" stroke="#f4c7a1" stroke-width="13" stroke-linecap="round"/>
-      <path d="M-56 45 L-68 39 M-57 52 L-72 52 M-54 59 L-66 68" stroke="#f6c945" stroke-width="4" stroke-linecap="round"/>
+      <path d="M64 70 L94 57" stroke="#f6c945" stroke-width="11" stroke-linecap="round"/>
+      <path d="M94 57 L116 48" stroke="#f4c7a1" stroke-width="13" stroke-linecap="round"/>
+      <path d="M114 45 L128 39 M115 52 L132 52 M112 59 L126 68" stroke="#f6c945" stroke-width="4" stroke-linecap="round"/>
     </g>`;
 }
 
@@ -71,23 +71,22 @@ function svg(weeks) {
     x: startX + weekIndex * (cell + gap),
     y: startY + dayIndex * (cell + gap),
     color: level(day.contributionCount),
-    delay: (weekIndex * 7 + dayIndex) * 0.025
+    active: day.contributionCount > 0,
+    delay: 1.65 + weekIndex * 0.045
   })));
-  const grid = cells.map((item) => `<rect class="cell" x="${item.x}" y="${item.y}" width="${cell}" height="${cell}" rx="2" fill="${item.color}" style="animation-delay:${item.delay}s"/>`).join('');
+  const grid = cells.map((item) => `<rect class="${item.active ? 'cell active' : 'cell'}" x="${item.x}" y="${item.y}" width="${cell}" height="${cell}" rx="2" fill="${item.color}" style="--sweep-delay:${item.delay}s;--original:${item.color}"/>`).join('');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Custom contribution grid hero animation">
-  <title>Detroit Smash contribution grid</title>
+  <title>Hero contribution grid punch animation</title>
   <style>
     text { font-family: Arial, sans-serif; }
-    .cell { animation: scatter 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    rect { animation: scatter 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .cell { transform-box: fill-box; transform-origin: center; }
+    .active { animation: clear 5s ease-in-out infinite; animation-delay: var(--sweep-delay); }
     .hero { animation: punch 5s ease-in-out infinite; transform-origin: 160px 110px; }
     .smash { animation: smash 5s ease-in-out infinite; transform-origin: 150px 110px; }
-    .label { animation: label 5s ease-in-out infinite; }
     @keyframes punch { 0%, 18%, 100% { transform: translateX(0); } 24%, 36% { transform: translateX(18px); } 42% { transform: translateX(0); } }
-    @keyframes smash { 0%, 24% { opacity: 0; transform: scaleX(.2); } 30%, 43% { opacity: 1; transform: scaleX(1); } 58%, 100% { opacity: 0; transform: scaleX(1.25); } }
-    @keyframes label { 0%, 20% { opacity: 0; transform: translateY(8px); } 26%, 46% { opacity: 1; transform: translateY(0); } 60%, 100% { opacity: 0; } }
-    @keyframes scatter { 0%, 25%, 100% { transform: translate(0, 0) rotate(0); opacity: 1; } 34%, 55% { transform: translate(24px, -12px) rotate(90deg); opacity: .18; } 70% { transform: translate(0, 0) rotate(0); opacity: 1; } }
+    @keyframes smash { 0%, 22% { opacity: 0; transform: scaleX(.2); } 28%, 54% { opacity: 1; transform: scaleX(1); } 66%, 100% { opacity: 0; transform: scaleX(1.2); } }
+    @keyframes clear { 0%, 28%, 100% { fill: var(--original); opacity: 1; } 48%, 72% { fill: #ebedf0; opacity: 1; } }
   </style>
   <rect width="100%" height="100%" rx="12" fill="#ffffff"/>
   <text x="28" y="28" fill="#172554" font-size="14" font-weight="700">HERO CONTRIBUTION GRID</text>
@@ -97,7 +96,6 @@ function svg(weeks) {
     <path d="M145 112 C250 100 340 112 470 128" stroke="#e63946" stroke-width="4"/>
     <path d="M150 102 C250 55 350 58 520 78" stroke="#1e5aa8" stroke-width="4"/>
   </g>
-  <text class="label" x="245" y="45" fill="#e63946" font-size="24" font-weight="900" letter-spacing="1">DETROIT SMASH!</text>
   <g>${grid}</g>
 </svg>`;
 }
