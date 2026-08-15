@@ -31,7 +31,7 @@
 
 <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=antony819&theme=tokyonight" />
 &nbsp;
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antony819&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=antony819&theme=tokyonight" />
 
 </div>
 
