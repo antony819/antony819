@@ -31,7 +31,8 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=antony819&theme=vue&hide_border=true" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=antony819&theme=vue&utcOffset=8" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antony819&theme=vue" />
 
 </div>
 
