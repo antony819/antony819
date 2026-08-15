@@ -40,10 +40,6 @@
 
 ---
 
-## 🎮 Contribution Grid
+## 💥 Detroit Smash Contribution Grid
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/antony819/antony819/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/antony819/antony819/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/antony819/antony819/output/github-contribution-grid-snake.svg" />
-</picture>
+<img alt="Detroit Smash contribution grid animation" src="https://raw.githubusercontent.com/antony819/antony819/output/hero-contribution-grid.svg" />
