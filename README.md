@@ -26,20 +26,24 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=antony819&theme=vue" />
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=antony819&theme=vue" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=antony819&theme=transparent" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=antony819&theme=transparent" />
 
 </div>
 
 <div align="center">
 
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=antony819&theme=vue&utcOffset=8" />
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antony819&theme=vue" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=antony819&theme=transparent&utcOffset=8" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antony819&theme=transparent" />
 
 </div>
 
 ---
 
-## 💥 Contribution Grid Punch
+## 🐍 Contribution Snake
 
-<img alt="Contribution grid punch animation" src="https://raw.githubusercontent.com/antony819/antony819/output/hero-contribution-grid.svg?v=2" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/antony819/antony819/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/antony819/antony819/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/antony819/antony819/output/github-contribution-grid-snake.svg" />
+</picture>

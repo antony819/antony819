@@ -1,4 +1,4 @@
-name: Generate Hero Contribution Animation
+name: Generate Snake Animation
 
 on:
   schedule:
@@ -12,16 +12,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: antony819
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Generate custom contribution animation
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USER_NAME: antony819
-        run: node scripts/generate-hero-grid.js
-
-      - name: Publish animation
-        uses: crazy-max/ghaction-github-pages@v3
+      - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
