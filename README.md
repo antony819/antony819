@@ -37,9 +37,7 @@
 
 <div align="center">
 
-<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=antony819&theme=tokyonight&utcOffset=8" />
-&nbsp;
-<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antony819&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antony819&theme=tokyonight" />
 
 </div>
 
