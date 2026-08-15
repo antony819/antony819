@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=4A90D9&center=true&vCenter=true&width=700&lines=Hey!+I'm+Antony+%F0%9F%91%8B;Full+Stack+Developer;Mobile+Developer;Project+Leader;My+Hero+Academia+Big+FAN+%F0%9F%94%A5;PLUS+ULTRA!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=750&lines=Hey!+I'm+Antony+%F0%9F%91%8B;Full+Stack+Developer;Mobile+Developer;Project+Leader;My+Hero+Academia+Big+FAN+%F0%9F%94%A5;PLUS+ULTRA!" alt="Typing SVG" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=20)](https://www.linkedin.com/in/cmtantony)&nbsp;&nbsp;
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Antony8189)&nbsp;&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:antony8189@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cmtantony)&nbsp;
+[![X](https://img.shields.io/badge/X-%23000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Antony8189)&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:antony8189@gmail.com)
 
 </div>
 
@@ -14,11 +14,14 @@
 
 ## 🦸‍♂️ About Me
 
-```
-⚡  Full Stack Developer  |  📱 Mobile Developer  |  🎯 Project Leader
-🔥  My Hero Academia 大粉絲 — PLUS ULTRA!
-🌱  Always learning, always building
-```
+> 🔥 **My Hero Academia** 大粉絲 &nbsp;—&nbsp; *PLUS ULTRA!*
+
+| | |
+|---|---|
+| 💻 | Full Stack Developer |
+| 📱 | Mobile Developer |
+| 🎯 | Project Leader |
+| 🌱 | Always learning, always building |
 
 ---
 
@@ -26,15 +29,15 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=antony819&theme=transparent" />
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=antony819&theme=transparent" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=antony819&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+&nbsp;
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antony819&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
 <div align="center">
 
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=antony819&theme=transparent&utcOffset=8" />
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antony819&theme=transparent" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=antony819&theme=tokyo-night&hide_border=true&area=true" />
 
 </div>
 
