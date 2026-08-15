@@ -42,4 +42,4 @@
 
 ## 💥 Contribution Grid Punch
 
-<img alt="Detroit Smash contribution grid animation" src="https://raw.githubusercontent.com/antony819/antony819/output/hero-contribution-grid.svg" />
+<img alt="Contribution grid punch animation" src="https://raw.githubusercontent.com/antony819/antony819/output/hero-contribution-grid.svg?v=2" />
