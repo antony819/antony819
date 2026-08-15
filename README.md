@@ -37,7 +37,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=antony819&theme=tokyo-night&hide_border=true&area=true" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antony819&theme=tokyonight" />
 
 </div>
 
