@@ -2,7 +2,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=200&section=header&text=Antony&fontSize=70&fontColor=fff&animation=twinkling" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=750&lines=Hey!+I'm+Antony+%F0%9F%91%8B;Full+Stack+Developer;Mobile+Developer;Project+Leader;My+Hero+Academia+Big+FAN+%F0%9F%94%A5;PLUS+ULTRA!" alt="Typing SVG" />
 
 <br/>
 
