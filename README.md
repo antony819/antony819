@@ -38,7 +38,7 @@
 
 <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=antony819&theme=tokyonight" />
 &nbsp;
-<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=antony819&theme=tokyonight" />
+<img height="170em" src="https://github-readme-stats.profile-readme-generator.com/api/top-langs?username=antony819&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false" />
 
 </div>
 
