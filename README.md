@@ -30,13 +30,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.profile-readme-generator.com/api?username=antony819&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" />
-
-</div>
-
-<div align="center">
-
-<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=antony819&theme=tokyonight" />
+<img height="170em" src="https://github-readme-stats.profile-readme-generator.com/api?username=antony819&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" />
 &nbsp;
 <img height="170em" src="https://github-readme-stats.profile-readme-generator.com/api/top-langs?username=antony819&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false" />
 
